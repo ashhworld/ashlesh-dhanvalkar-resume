@@ -1,29 +1,16 @@
-# Ashlesh Dhanvalkar – Resume Website
+# React + Vite
 
-A modern, responsive personal resume site built with pure HTML/CSS.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## 🚀 Live Site
-Deployed on Vercel: [your-url-here.vercel.app]
+Currently, two official plugins are available:
 
-## 📁 Project Structure
-```
-resume-site/
-├── index.html       # Main resume page
-├── vercel.json      # Vercel deployment config
-└── README.md        # This file
-```
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## 🛠️ Local Development
-Just open `index.html` in your browser — no build step needed.
+## React Compiler
 
-## 🔄 Updating Your Resume
-1. Edit `index.html`
-2. `git add . && git commit -m "Update resume"`
-3. `git push` → Vercel auto-deploys in ~30 seconds
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## 📄 Print / Download PDF
-Click the **Download PDF** button on the live site, or press `Ctrl+P` and select "Save as PDF".
+## Expanding the ESLint configuration
 
-## 📬 Contact
-- Email: dhanvalkarashu20@gmail.com
-- LinkedIn: linkedin.com/in/ashleshdhanvalkar
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
